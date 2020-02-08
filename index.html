@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KLB Natural</title>
+    <link rel="stylesheet" href="main.scss">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">KLB Natural</div>
+                <div class="hamburger">
+                    <span class="line line1"></span>
+                    <span>MENU</span>
+                    <span class="line line2"></span>
+                </div>
+            </div>
+        </nav>
+        <div class="nav__open">
+            <div class="contact">
+                <h3>Contact</h3>
+                <h4>(CEO): Hajra Čobo</h4>
+                <h5><span><svg class="nav__right__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <use xlink:href="./assets/sprite.svg#icon-phone"></use>
+                  </svg></span> +387 611 53 212</h5>
+            </div>
+            <div class="social">
+                <h3>Socials</h3>
+                <div class="social__icons">
+                    <span><svg class="nav__right__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <use xlink:href="./assets/sprite.svg#icon-facebook2"></use>
+                      </svg></span>
+                      <span><svg class="nav__right__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <use xlink:href="./assets/sprite.svg#icon-instagram"></use>
+                      </svg></span>
+                      <span><svg class="nav__right__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <use xlink:href="./assets/sprite.svg#icon-twitter"></use>
+                      </svg></span>
+                </div>
+            </div>
+        </div>
+        <div class="nav__right">
+            <a class="active" href="index.html"><span>1</span><span> <svg class="nav__right__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <use xlink:href="./assets/sprite.svg#icon-dot-circle-o"></use>
+              </svg></span></a>
+              <a href="soap.html"><span>2</span><span> <svg class="nav__right__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <use xlink:href="./assets/sprite.svg#icon-dot-circle-o"></use>
+              </svg></span></a>
+              <a href="nuvole.html"><span>3</span><span> <svg class="nav__right__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <use xlink:href="./assets/sprite.svg#icon-dot-circle-o"></use>
+              </svg></span></a>
+        </div>
+    </header>
+    <main data-router-wrapper>
+        <section class="section section1" data-router-view="mens">
+            <div class="text__container men">
+                <h1>KLB Natural</h1>
+                <h2>Regel<br><span>Black</span></h2>
+                <p>Hair remover for <span>STRONG MEN'S</span></p>
+            </div>
+            <div class="img__container">
+                <a href="#" class="img__container__a">
+                    <img src="./assets/mens-left.png" alt="mens">
+                    <img src="./assets/mens-right.png" alt="mens">
+                </a>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
