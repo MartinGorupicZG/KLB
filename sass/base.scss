@@ -42,7 +42,8 @@ body {
     font-weight: 400;
     line-height: 1.6;
     font-family: var(--mont);
-    min-height: 100vh;
+    min-height: fit-content;
+    
 }
 body::-webkit-scrollbar {
     display: none;

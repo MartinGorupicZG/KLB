@@ -37,7 +37,7 @@ body {
   font-weight: 400;
   line-height: 1.6;
   font-family: var(--mont);
-  min-height: 100vh;
+  min-height: fit-content;
 }
 
 body::-webkit-scrollbar {
@@ -131,8 +131,11 @@ body::-webkit-scrollbar {
     margin-top: 40%;
     overflow: hidden;
   }
-  .img__container a img {
+  .img__container a .img__left, .img__container a .img__right {
     width: 50%;
+  }
+  .img__container a .img__left img, .img__container a .img__right img {
+    width: 100%;
   }
 }
 
@@ -322,6 +325,7 @@ body::-webkit-scrollbar {
   transform: translateY(-50%);
   padding-right: 4%;
   width: 7rem;
+  z-index: 6;
 }
 .nav__right a {
   display: flex;

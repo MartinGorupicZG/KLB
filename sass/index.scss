@@ -73,9 +73,13 @@ a{
        height: 100%;
        margin-top: 40%;
        overflow: hidden;
-       img {
+       .img__left,.img__right {
            width: 50%;
+           img {
+            width: 100%;
+        }
        }
+     
     }
 }
 }
